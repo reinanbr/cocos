@@ -49,9 +49,7 @@ def make_report_pdf(cocos:Cocos,pdf_path=None):
 
     elif mean_nitro > 0.3:
         nota = f'Por favor, verifique as quantidades de produtos de fertilizantes à base de nitrogênio que você está utilizando, pois o nível de nitrogênio está muito acima do recomendado: nitrogênio = {mean_nitro:.2f}. O recomendado é nitrogênio < 0.3. Evite o uso excessivo de fertilizantes à base de nitrogênio para evitar danos ao solo.'
-        if mean_ph < 6:
-            nota = f'Cara ... Veja: [ph médio = {mean_ph:.2f} | nitrogen médio = {mean_nitro:.2f}] Aposto, que você é aquelas pessoas que sofria bulling na escola, por fazer tudo simplesmente errado! Que você era odiado até pela sua mãe. E seu pai falava que você era adotado na sua cara. Como você simplesmente consegue estragar o seu solo! seu Asno! Animal! Agora vai ter que vender essa porra de graça! Muleque burro! Até um garoto de 10 anos entenderia os limites de nitrogênio e ph, seu asno. Adotado! Sua mãe ti culpa pela separação com o seu pai e ela tem toda razão! Vai lá, ser a merda na vida de alguém, seu bosta. Burro'
-
+        
     else:
         nota = 'Parabéns! O solo está em perfeito estado. Continue com os cuidados adequados.'
 
